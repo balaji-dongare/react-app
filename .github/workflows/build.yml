@@ -1,6 +1,6 @@
 name: CI
 on: 
-  Push:
+  push:
    branches: [Develop,Master] 
   pull_request:
     branches: [Develop]
