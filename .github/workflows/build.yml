@@ -1,5 +1,7 @@
 name: CI
-on:  
+on: 
+  Push:
+   branches: [Develop,Master] 
   pull_request:
     branches: [Develop]
 jobs:
